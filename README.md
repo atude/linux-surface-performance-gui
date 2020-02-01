@@ -7,7 +7,7 @@ for surface devices. Requires [linux-surface kernel](https://github.com/linux-su
 
 * Surface Book 2
 
-## Usage: 
+## Usage 
 
 Run ```surface-settings.sh```
 
