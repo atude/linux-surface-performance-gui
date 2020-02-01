@@ -3,13 +3,15 @@
 **surface-settings:** GUI for linux-surface compatible distributions to set performance and GPU mode
 for surface devices. Requires [linux-surface kernel](https://github.com/linux-surface/linux-surface) and [surface-control utility](https://github.com/linux-surface/surface-control). Requires zenity and notify-send if its not preinstalled in your distribution.
 
-Compatible with
+## Compatible devices
 
 * Surface Book 2
 
->*Usage:* `surface-settings.sh`
+## Usage: 
 
-Note: Works best if set as a .desktop file:
+Run ```surface-settings.sh```
+
+## Desktop entry (optional)
 
 ```
 [Desktop Entry]
