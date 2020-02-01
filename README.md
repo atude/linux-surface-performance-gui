@@ -8,3 +8,16 @@ Compatible with
 * Surface Book 2
 
 >*Usage:* `surface-settings.sh`
+
+Note: Works best if set as a .desktop file:
+
+```
+[Desktop Entry]
+Comment=Change performance mode for surface device
+Terminal=false
+Name=Device Mode
+Exec=sudo /your/path/surface-settings.sh
+Type=Application
+Icon=/your/path/device-mode-icon.svg
+
+```
