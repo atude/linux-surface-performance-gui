@@ -5,7 +5,7 @@ for surface devices. Requires [linux-surface kernel](https://github.com/linux-su
 
 ## Compatible devices
 
-* Surface Book 2
+* Surface Book 2 (with dGPU)
 
 ## Usage 
 
