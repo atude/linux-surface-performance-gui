@@ -1,7 +1,7 @@
 # linux-surface-performance-gui
 
 GUI for linux-surface compatible distributions to set performance and GPU mode
-for surface devices. Requires [linux-surface kernel](https://github.com/linux-surface/linux-surface) and [surface-control utility](https://github.com/linux-surface/surface-control). Requires zenity and notify-send if its not preinstalled in your distribution.
+for surface devices. Requires [linux-surface kernel](https://github.com/linux-surface/linux-surface) and [surface-control utility](https://github.com/linux-surface/surface-control). Requires zenity and notify-send if not preinstalled in your distribution.
 
 ## Compatible devices
 
