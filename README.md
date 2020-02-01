@@ -7,4 +7,4 @@ Compatible with
 
 * Surface Book 2
 
-*Usage:* Run `surface-settings`
+>*Usage:* Run `surface-settings`
