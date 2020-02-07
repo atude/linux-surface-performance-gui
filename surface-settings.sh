@@ -69,21 +69,21 @@ $high_performance_gpu_mode "High Performance (dGPU enabled)" \
 if [ "$result" = "Default" ]; then  
   sudo surface dgpu set off
   sudo surface performance set 1
-  notify-send "Surface - Default Mode" "Nvidia GPU disabled and system set to normal performance"
+  #notify-send "Surface - Default Mode" "Nvidia GPU disabled and system set to normal performance"
 elif [ "$result" = "Battery Saving" ]; then  
   sudo surface dgpu set off
   sudo surface performance set 2
-  notify-send "Surface - Battery Saving Mode" "Nvidia GPU disabled and system set to low performance"
+  #notify-send "Surface - Battery Saving Mode" "Nvidia GPU disabled and system set to low performance"
 elif [ "$result" = "Better Performance" ]; then
   sudo surface dgpu set off
   sudo surface performance set 3
-  notify-send "Surface - Better Performance Mode" "Nvidia GPU disabled and system set to better performance"
+  #notify-send "Surface - Better Performance Mode" "Nvidia GPU disabled and system set to better performance"
 elif [ "$result" = "High Performance (dGPU disabled)" ]; then
   sudo surface dgpu set off
   sudo surface performance set 4
-  notify-send "Surface - High Performance Mode (dGPU disabled)" "Nvidia GPU disabled and system set to best performance"
+  #notify-send "Surface - High Performance Mode (dGPU disabled)" "Nvidia GPU disabled and system set to best performance"
 elif [ "$result" = "High Performance (dGPU enabled)" ]; then
   sudo surface dgpu set on
   sudo surface performance set 4
-  notify-send "Surface - High Performance Mode (dGPU enabled)" "Nvidia GPU enabled and system set to best performance"
+  #notify-send "Surface - High Performance Mode (dGPU enabled)" "Nvidia GPU enabled and system set to best performance"
 fi
